@@ -243,9 +243,9 @@ export default function Home() {
   </div>
 
   <div>
-    <p className="mt-8 text-sm font-semibold text-neutral-900">
-      Ultimately, I believe product mechanics and distribution must evolve 
-      together—technical capability only matters if the distribution model 
+    <p className="mt-8 text-sm leading-6 text-neutral-900">
+      Ultimately, I believe product mechanics and distribution strategy must evolve 
+      together — technical capability only matters if the distribution model 
       is built into the product's DNA.
     </p>
   </div>
@@ -264,7 +264,7 @@ export default function Home() {
               particularly within AI-native teams.
             </p>
             <p className="mt-3 text-sm leading-6 text-neutral-700">
-              If you’re building AI products and value operators who combine product
+              If you’re building AI products and value marketers who combine product
               thinking, GTM strategy, and hands-on AI experimentation, I’d love to connect.
             </p>
 
