@@ -113,6 +113,14 @@ export default function Home() {
     >
       Live site
     </a>
+    <a
+    className="text-blue-600 hover:underline underline-offset-4"
+    href="https://github.com/elena-h-w/waylena"
+    target="_blank"
+    rel="noreferrer"
+  >
+    GitHub repo
+  </a>
   </div>
 
   <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
