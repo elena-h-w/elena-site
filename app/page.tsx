@@ -1,3 +1,6 @@
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+
 const writingPreviews = [
   {
     title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks",
@@ -11,21 +14,7 @@ const writingPreviews = [
 export default function Home() {
   return (
     <>
-      {/* Sticky top nav */}
-      <nav className="sticky top-0 z-10 bg-white/95 backdrop-blur-sm border-b border-neutral-100">
-        <div className="mx-auto max-w-3xl px-6 py-3 flex items-center justify-between">
-          <a href="#" className="text-sm font-medium text-neutral-900">
-            Elena Wang
-          </a>
-          <div className="flex flex-wrap gap-4 text-sm text-neutral-500">
-            <a href="#about" className="hover:text-neutral-900 transition-colors">About</a>
-            <a href="#product" className="hover:text-neutral-900 transition-colors">Product</a>
-            <a href="#strategy" className="hover:text-neutral-900 transition-colors">Strategy</a>
-            <a href="/writing" className="hover:text-neutral-900 transition-colors">Writing</a>
-            <a href="#contact" className="hover:text-neutral-900 transition-colors">Contact</a>
-          </div>
-        </div>
-      </nav>
+      <Nav activePage="home" />
 
       <main className="min-h-screen bg-white text-neutral-900 antialiased">
         <div className="mx-auto max-w-3xl px-6 py-16">
@@ -50,11 +39,9 @@ export default function Home() {
             <div className="mt-6 flex flex-wrap gap-4 text-sm">
               <a
                 className="text-blue-600 hover:underline underline-offset-4"
-                href="https://github.com/elena-h-w/"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:elenawong1031@gmail.com"
               >
-                GitHub
+                Email
               </a>
               <a
                 className="text-blue-600 hover:underline underline-offset-4"
@@ -66,9 +53,19 @@ export default function Home() {
               </a>
               <a
                 className="text-blue-600 hover:underline underline-offset-4"
-                href="mailto:elenawong1031@gmail.com"
+                href="https://github.com/elena-h-w/"
+                target="_blank"
+                rel="noreferrer"
               >
-                Email
+                GitHub
+              </a>
+              <a
+                className="text-blue-600 hover:underline underline-offset-4"
+                href="https://www.instagram.com/elena.h.w/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
               </a>
             </div>
           </div>
@@ -298,6 +295,15 @@ export default function Home() {
                 </div>
               ))}
             </div>
+
+            <div className="mt-8">
+              <a
+                href="/writing"
+                className="text-sm text-blue-600 hover:underline underline-offset-4"
+              >
+                View all writing →
+              </a>
+            </div>
           </section>
 
           <hr className="my-12 border-neutral-200" />
@@ -320,49 +326,23 @@ export default function Home() {
               <div className="mt-5 flex flex-wrap gap-4 text-sm">
                 <a
                   className="text-blue-600 hover:underline underline-offset-4"
+                  href="mailto:elenawong1031@gmail.com"
+                >
+                  Email me
+                </a>
+                <a
+                  className="text-blue-600 hover:underline underline-offset-4"
                   href="https://www.linkedin.com/in/elenawang/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Message me on LinkedIn
                 </a>
-                <a
-                  className="text-blue-600 hover:underline underline-offset-4"
-                  href="mailto:elenawong1031@gmail.com"
-                >
-                  Email me
-                </a>
               </div>
             </div>
           </section>
 
-          <footer className="mt-16 flex flex-wrap items-center justify-between gap-4 border-t border-neutral-200 pt-8 text-sm text-neutral-600">
-            <p>© {new Date().getFullYear()} Elena Wang</p>
-            <div className="flex gap-4">
-              <a
-                className="text-neutral-600 hover:text-neutral-900"
-                href="https://github.com/elena-h-w"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                className="text-neutral-600 hover:text-neutral-900"
-                href="https://www.linkedin.com/in/elenawang/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a
-                className="text-neutral-600 hover:text-neutral-900"
-                href="mailto:elenawong1031@gmail.com"
-              >
-                Email
-              </a>
-            </div>
-          </footer>
+          <Footer />
         </div>
       </main>
     </>
