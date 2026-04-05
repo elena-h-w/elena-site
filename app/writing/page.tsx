@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Writing",
   description:
-    "Essays and thinking on AI product strategy, GTM, and building in public — from Elena Wang.",
+    "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
   alternates: {
     canonical: "https://elenahw.com/writing",
   },
   openGraph: {
     title: "Writing | Elena Wang",
     description:
-      "Essays and thinking on AI product strategy, GTM, and building in public.",
+      "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
     url: "https://elenahw.com/writing",
   },
 };
