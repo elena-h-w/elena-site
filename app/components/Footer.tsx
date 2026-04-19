@@ -19,6 +19,14 @@ export default function Footer() {
         </a>
         <a
           className="text-neutral-600 hover:text-neutral-900"
+          href="https://x.com/Elena_H_W"
+          target="_blank"
+          rel="noreferrer"
+        >
+          X
+        </a>
+        <a
+          className="text-neutral-600 hover:text-neutral-900"
           href="https://github.com/elena-h-w"
           target="_blank"
           rel="noreferrer"

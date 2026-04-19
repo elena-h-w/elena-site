@@ -53,6 +53,14 @@ export default function Home() {
               </a>
               <a
                 className="text-blue-600 hover:underline underline-offset-4"
+                href="https://x.com/Elena_H_W"
+                target="_blank"
+                rel="noreferrer"
+              >
+                X
+              </a>
+              <a
+                className="text-blue-600 hover:underline underline-offset-4"
                 href="https://github.com/elena-h-w/"
                 target="_blank"
                 rel="noreferrer"
@@ -146,15 +154,10 @@ export default function Home() {
 
               <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
                 <li>
-                  Built full-stack iOS and Android apps using Expo/React Native, Supabase, and 
-                  PostHog from concept to production
-                </li>
-                <li>
                   Designed conversation-centric UX with multi-select topic tagging, follow-up
                   reminders, and networking insights
                 </li>
                 <li>Launched on the App Store; Android in testing</li>
-                <li>Deployed marketing website (waylena.com) with Kit email capture and Google Analytics</li>
               </ul>
               <p className="mt-4 text-sm text-neutral-700">
                 This project pushed me into mobile product development — navigating app
@@ -192,10 +195,6 @@ export default function Home() {
 
               <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
                 <li>
-                  Built V1 using Lovable and AI-assisted prototyping
-                  (&quot;vibe coding&quot;)
-                </li>
-                <li>
                   Rebuilt from Lovable prototype using React, TypeScript, and
                   Supabase for persistent data and auth
                 </li>
@@ -203,9 +202,6 @@ export default function Home() {
                   Integrated Claude API for improved output control and multi-step
                   narrative generation
                 </li>
-                <li>Integrated PostHog for usage and engagement analytics to track
-                  adoption patterns and inform iteration</li>
-                <li>Deployed via GitHub and Vercel</li>
                 <li>
                   Key insight: single-pass LLM prompts fail without multi-step
                   abstraction
@@ -223,6 +219,55 @@ export default function Home() {
 
               <div className="mt-4 flex flex-wrap gap-2">
                 {["Claude API", "React", "TypeScript", "Supabase", "PostHog", "Vercel", "GitHub"].map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-700"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-6 rounded-xl border border-neutral-200 p-6">
+              <h3 className="text-lg font-semibold">Back on Track</h3>
+              <p className="mt-1 text-sm text-neutral-600">
+                Return-to-running web app combining a PT strength routine with a structured walk/jog progression program
+              </p>
+              <div className="mt-3 flex flex-wrap gap-4 text-sm">
+                <a
+                  className="text-blue-600 hover:underline underline-offset-4"
+                  href="https://return-to-running.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live site
+                </a>
+                <a
+                  className="text-blue-600 hover:underline underline-offset-4"
+                  href="https://github.com/elena-h-w/return-to-running"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub repo
+                </a>
+              </div>
+
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
+                <li>
+                  Built a mobile-friendly PWA using React, Vite, and localStorage — no backend, no auth, no data collection
+                </li>
+                <li>
+                  Implemented a pain-check protocol before every run log, with automatic advancement blocks for serious pain
+                </li>
+              </ul>
+
+              <p className="mt-4 text-sm text-neutral-700">
+                This project taught me how to scope and ship a focused, single-purpose tool as well as how much product thinking goes into something that feels simple on the surface. Built during recovery from a ski injury and released as MIT-licensed open source.
+              </p>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                {["React", "Vite", "CSS Modules", "PWA", "Vercel", "GitHub"].map((t) => (
                   <span
                     key={t}
                     className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-700"
