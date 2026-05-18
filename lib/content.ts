@@ -143,9 +143,9 @@ export const writings: Article[] = [
 
 export const contact = {
   line1:
-    "I’m exploring senior roles in AI product marketing and product-led growth where I can combine GTM strategy with hands-on product building.",
+    "I’m passionate about AI product marketing and product-led growth, and I’d love to connect with people building and marketing AI products.",
   line2:
-    "If you’re hiring at an AI company and value marketers who understand how AI products work from the inside, I’d love to connect.",
+    "Whether you want to exchange ideas, collaborate, or just say hello, please feel free to reach out.",
 };
 
 export const year = "2026";
