@@ -95,10 +95,10 @@ export default function RootLayout({
                 "Large Language Models",
               ],
               sameAs: [
-                "https://www.linkedin.com/in/elenawang/",
+                "https://www.linkedin.com/in/elenawang",
                 "https://x.com/Elena_H_W",
-                "https://github.com/elena-h-w/",
-                "https://www.instagram.com/elena.h.w/",
+                "https://github.com/elena-h-w",
+                "https://www.instagram.com/elena.h.w",
               ],
             }),
           }}

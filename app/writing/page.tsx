@@ -6,21 +6,22 @@ import { writings } from "../../lib/content";
 export const metadata: Metadata = {
   title: "Writing | Elena Wang",
   description:
-    "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
+    "Writing on AI product building, go-to-market strategy, and lessons learned along the way — plus the personal stories behind the scenes.",
   alternates: {
     canonical: "https://elenahw.com/writing",
   },
   openGraph: {
     title: "Writing | Elena Wang",
     description:
-      "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
+      "Writing on AI product building, go-to-market strategy, and lessons learned along the way — plus the personal stories behind the scenes.",
     url: "https://elenahw.com/writing",
+    images: ["/og.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Writing | Elena Wang",
     description:
-      "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
+      "Writing on AI product building, go-to-market strategy, and lessons learned along the way — plus the personal stories behind the scenes.",
     images: ["/og.png"],
   },
 };
