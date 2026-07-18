@@ -21,7 +21,7 @@ export default function Product() {
                 textTransform: "uppercase",
               }}
             >
-              3 shipped{" "}
+              4 shipped{" "}
               <span style={{ color: "var(--rule-2)" }}>·</span>{" "}
               2026
             </span>

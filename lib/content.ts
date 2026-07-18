@@ -89,6 +89,21 @@ export const projects: Project[] = [
       "This project taught me how to scope and ship a focused, single-purpose tool as well as how much product thinking goes into something that feels simple on the surface. Built during recovery from a ski injury and released as MIT-licensed open source.",
     stack: ["React", "Vite", "CSS Modules", "PWA", "Vercel", "GitHub"],
   },
+  {
+    name: "Lift & Stride",
+    tag: "Home-gym-workout app combining a strength program with structured cardio and progressive-overload tracking",
+    links: [
+      { label: "Live site",   href: "https://lift-and-stride.vercel.app" },
+      { label: "GitHub repo", href: "https://github.com/elena-h-w/home-gym-workout" },
+    ],
+    bullets: [
+      "Built a mobile-first PWA using React, Vite, and localStorage — no backend, no auth, no data collection",
+      "Guided one-exercise-at-a-time workout mode with a progressive-overload nudge based on rep-range history",
+    ],
+    reflection:
+      "Built as a sequel to Back on Track once I was done with PT and no longer limited on cardio — reusing its design system and architecture let me ship it fast. Released as MIT-licensed open source.",
+    stack: ["React", "Vite", "CSS Modules", "PWA", "Vercel", "GitHub"],
+  },
 ];
 
 export const strategy: { groups: StrategyGroup[]; closing: string } = {
